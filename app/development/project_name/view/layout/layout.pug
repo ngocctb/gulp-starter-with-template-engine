@@ -1,0 +1,43 @@
+include ../mixin/mixin
+//-variable
+block var
+- var title = (typeof(title) === 'undefined' || title == "") ? "CHAU TRUNG BAO NGOC template engine" : title;
+- var scriptpage;
+- var subPage = (typeof(subPage) === 'undefined' || subPage == "") ? "" : subPage;
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='format-detection', content='telephone=no')
+    <!--[if IE]>
+    <link rel="shortcut icon" href="path/to/favicon.ico"/>
+    <![endif]-->
+    link(href='images/apple-touch-icon-precomposed.png',rel='apple-touch-icon-precomposed')
+    link(href='images/favicon.png',rel='icon')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    title=title
+    link(href='css/style.css', rel='stylesheet', media='screen')
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/libs/html5shiv.min.js"></script>
+    <script type="text/javascript" src="js/libs/respond.min.js"></script>
+    <![endif]-->
+  body(class=subPage)
+    .wrapper
+        //- include header
+        include ../includes/header
+        #main
+            block content
+        //- include footer
+        include ../includes/footer
+
+    //- Include all compiled plugins (below), or include individual files as needed
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/bootstrap.min.js")
+    script(src='js/libs/plugins.min.js')
+    script(src='js/main.js')

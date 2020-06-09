@@ -1,0 +1,33 @@
+// Author: CHAU TRUNG BAO NGOC
+//==================================================
+@charset 'UTF-8';
+
+//==================================================
+// base
+//==================================================
+// @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+html {
+	font-size: 62.5%; // Sets up the Base 10 stuff
+
+}
+*{
+	// @include font-size(14);
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.inner {
+	width: 1064px;
+	margin: 0 auto;
+}
+
+.row {
+	// @include pie-clearfix;
+}
+
+#wrap main {
+	margin-top: 64px;
+}

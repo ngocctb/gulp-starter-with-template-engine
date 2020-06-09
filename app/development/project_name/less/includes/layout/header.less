@@ -1,0 +1,36 @@
+header {
+  position: relative;
+  .logo {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  nav {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 136px;
+    display: inline-block;
+    ul {
+      list-style: none;
+      padding: 10px;
+      background: @gray-bg;
+      li {
+        display: inline-block;
+        &.active {
+          a {
+            background: lighten(@gray-bg, 20%);
+          }
+        }
+        a {
+          padding: 10px;
+          display: inline-block;
+          background: lighten(@gray-bg, 10%);
+          &:hover {
+            background: lighten(@gray-bg, 20%);
+          }
+        }
+      }
+    }
+  }
+}

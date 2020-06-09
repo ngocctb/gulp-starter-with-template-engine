@@ -1,0 +1,10 @@
+- var active;
+header#header
+  a.logo(href="", title="CHAU TRUNG BAO NGOC template engine")
+    img(src="images/logo.jpg", width="130", alt="CHAU TRUNG BAO NGOC template engine")
+  nav.navbar
+    ul
+      li.active: +a("Home", "index.html")
+      li: +a("Product", "")
+      li: +a("About us", "")
+      li: +a("Contact", "")

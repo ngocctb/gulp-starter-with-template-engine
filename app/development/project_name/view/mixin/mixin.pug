@@ -1,0 +1,9 @@
+//--a tag
+mixin a(text, href)
+  - var href= (typeof(href) === 'undefined' || href =="")? "javascript:void(0);" : href;
+  a(href=href, title=text) #{text}
+
+//--img tag
+mixin img(src,alt)
+  - var alt_t= (typeof(alt) === 'undefined' || alt =="")? src.substr(src.lastIndexOf('/')+1) : alt;
+  img(src=src, alt=alt_t)

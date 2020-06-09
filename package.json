@@ -1,0 +1,44 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "Gulp Starter for project by CHAU TRUNG BAO NGOC   This repo is a gulp starter for this project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulpfile.js"
+  },
+  "author": "CHAU TRUNG BAO NGOCs",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.8",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-data": "^1.2.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-typescript": "^3.1.2",
+    "gulp-uglify": "^2.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.0.7"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://ngocctb@bitbucket.org/ngocctb/gulp-starter-with-template-engine.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "homepage": "https://ngocctb@bitbucket.org/ngocctb/gulp-starter-with-template-engine.git#readme"
+}
