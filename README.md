@@ -1,20 +1,6 @@
 Gulp Starter for project by CHAU TRUNG BAO NGOC  
 This repo is a gulp starter for this project. 
 
-```
-AUTHOR  : CHAU TRUNG BAO NGOC
-Skype   : ngoc.ctb1
-MAIL    : chautrungbaongoc@gmail.com
-TEL     : (+84)903.862.068
-```
-### infomation Author ###
-```
-AUTHOR  : CHAU TRUNG BAO NGOC
-Skype   : ngoc.ctb1
-MAIL    : chautrungbaongoc@gmail.com
-TEL     : (+84)903.862.068
-```
-
 ### npm Install ###
 Remember to do run the `npm install` command after cloning this repo :) 
 
