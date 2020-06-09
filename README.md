@@ -29,7 +29,7 @@ docs : https://www.npmjs.com/package/gulp-git
 ```
 /*--- Git ---*/
 
-var git_clone_url         = 'https://ngocctb@bitbucket.org/ngocctb/gulp-starter-jade-master.git',
+var git_clone_url         = 'https://github.com/ngocctb/gulp-starter-with-template-engine.git',
     git_clone_sub_url     = "", // url clone sub
     git_folder_clone_sub  = "",
     git_version           = 'v1.1.1',
